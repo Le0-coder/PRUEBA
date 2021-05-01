@@ -48,6 +48,6 @@ double Professor::salary() {
 string Professor::toString() {
     stringstream s;
     s<<"Professor Information: "<< firstName << " " << lastName << endl
-       << "Doc Id: " << documentId << ", Monthly Salary: "<< salary();
+       << "Doc Id: " << documentId << ", Monthly Salary prueba : "<< salary();
     return s.str();
 }
